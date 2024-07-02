@@ -263,6 +263,7 @@ void InterfaceTask::run() {
     #endif
     #if SK_STRAIN
         scale.begin(PIN_STRAIN_DO, PIN_STRAIN_SCK);
+      
     #endif
 
     #if SK_ALS
